@@ -2,11 +2,11 @@
 
 ## Product Backlog
 
-Apresentar a técnica para levantar as Histórias de Usuário e suas prioridades
+![Product Backlog](.gitbook/assets/BacklogMVP.png "Product Backlog")
 
 ## Roadmap
 
-Apresentar o sprint backlog
+![RoadMap](.gitbook/assets/RoadMap.png "RoadMap")
 
 
 
