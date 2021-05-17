@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>WebRTC Demo</title>
+  </head>
+  <body>
+    <div>
+      <input type="radio" name="value" id="1">
+      <label for="1">1</label>
+      <input type="radio" name="value" id="2">
+      <label for="2">2</label>
+      <input type="radio" name="value" id="3">
+      <label for="3">3</label>
+      <input type="radio" name="value" id="4">
+      <label for="4">4</label>
+      <input type="radio" name="value" id="5">
+      <label for="5">5</label>
+      <input type="radio" name="value" id="6">
+      <label for="6">6</label>
+      <button id="testWb">Connect</button>
+      <button id="disconnectWb">Disconnect</button>
+    </div>
+    </br>
+    <div>
+      <button id="createRoom">Create Room</button>
+    </div>
+    <div>
+      <h3 id="createdRoomCode">000-000</h3>
+    </div>
+    </br>
+    <div>
+      <input type="text" id="roomCode"/>
+      <button id="joinRoom">Join Room</button>
+    </div>
+    </br>
+    <h2>1. Select your media font</h2>
+    <div class="videos">
+      <span>
+        <h3>Local Stream</h3>
+        <video id="previewVideo" autoplay controls></video>
+      </span>
+    </div>
+
+    <button id="selectMediaButton">Select media</button>
+    <h2>2. Create a new Stream</h2>
+    <button id="createStreamButton" disabled>Create Stream (offer)</button>
+
+    <h2>3. Join a Stream</h2>
+    <p>Join the stream from a different browser window or device</p>
+    
+    <input id="sessionInput" />
+    <button id="joinButton">Join</button>
+
+    <h2>4. End</h2>
+
+    <button id="endButton" disabled>End</button>
+
+    <script src="./indexScript.js"></script>
+
+  </body>
+</html>
